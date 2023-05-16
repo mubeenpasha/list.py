@@ -1,0 +1,9 @@
+def city_country(city,country):
+    return(f"{city},{country}")
+print(city_country("santiago","chille"))
+
+def describe_city(city,country="England"):
+    print(f"the city of {city}is in the country{country}.")
+describe_city("manchester")
+describe_city("london")
+describe_city("paris,France")
